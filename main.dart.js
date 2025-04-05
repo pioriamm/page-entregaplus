@@ -7056,7 +7056,7 @@ XI(a,b){return A.aFz(a,b)},
 aFz(a,b){var s=0,r=A.O(t.uP),q,p=2,o,n,m,l,k,j,i,h
 var $async$XI=A.K(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
-n=A.eb("http://192.168.100.82:5032/Auth/credenciais").Wr(A.ax(["login",a,"senha",b],t.N,t.z))
+n=A.eb("https://apialex.up.railway.app").Wr(A.ax(["login",a,"senha",b],t.N,t.z))
 s=7
 return A.V(A.WU(n),$async$XI)
 case 7:m=d
@@ -7095,7 +7095,7 @@ XF(a){return A.aFx(a)},
 aFx(a){var s=0,r=A.O(t.v),q,p=2,o,n,m,l,k,j,i,h
 var $async$XF=A.K(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
-n=A.eb("http://192.168.100.82:5032/criarCondutor")
+n=A.eb("https://apialex.up.railway.app/criarCondutor")
 j=t.N
 j=A.ax(["Content-Type","application/json"],j,j)
 s=7
@@ -7131,7 +7131,7 @@ var $async$XB=A.K(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:p=4
 j=B.d.N(b.k(0),0,10)
 i=B.d.N(a.k(0),0,10)
-n=A.eb("http://192.168.100.82:5032/Jornada/ListarTodasJornadasData/"+j+"/"+i+"/"+c)
+n=A.eb("https://apialex.up.railway.app/Jornada/ListarTodasJornadasData/"+j+"/"+i+"/"+c)
 s=7
 return A.V(A.WU(n),$async$XB)
 case 7:m=e
@@ -7164,7 +7164,7 @@ return A.N($async$XB,r)},
 GY(){var s=0,r=A.O(t.hd),q,p=2,o,n,m,l,k,j,i,h
 var $async$GY=A.K(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
-n=A.eb("http://192.168.100.82:5032/listarCondutor")
+n=A.eb("https://apialex.up.railway.app/listarCondutor")
 s=7
 return A.V(A.WU(n),$async$GY)
 case 7:m=b
@@ -7198,7 +7198,7 @@ XG(a){return A.aFy(a)},
 aFy(a){var s=0,r=A.O(t.ru),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$XG=A.K(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
-n="http://192.168.100.82:5032"
+n="https://apialex.up.railway.app"
 m=A.eb(A.j(n)+"/Jornada/buscarJornadaPorMotoristaID/"+a)
 s=7
 return A.V(A.WU(m),$async$XG)
@@ -7237,7 +7237,7 @@ n=A.bL(A.aY(a),A.aZ(a)-1,A.c8(a),0,0,0,0,0)
 m=a
 h=A.j(n)
 g=A.j(m)
-l=A.eb("http://192.168.100.82:5032/Jornada/auditoria/"+h+"/"+g+"/"+b)
+l=A.eb("https://apialex.up.railway.app/Jornada/auditoria/"+h+"/"+g+"/"+b)
 s=7
 return A.V(A.WU(l),$async$XA)
 case 7:k=d
